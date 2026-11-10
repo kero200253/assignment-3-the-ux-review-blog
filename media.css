@@ -1,0 +1,362 @@
+.card-1, .card-2, .card-3 {
+    height: auto;
+}
+
+.authors-cards .pict1 {
+    height: auto;
+    min-height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        width: 95%;
+    }
+
+    .home-right img {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+    }
+
+    .contant {
+        width: 95%;
+        gap: 20px;
+    }
+
+    .latestArticles-l {
+        width: 60%;
+    }
+
+    .latestArticles-r {
+        width: 40%;
+    }
+
+    input, .sec3 button {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        width: 95%;
+        padding: 15px 24px;
+        border-radius: 12px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .navbar ul {
+        margin: 0;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar ul li img {
+        display: none;
+    }
+
+    .right button {
+        margin: 0;
+    }
+
+    .home1 {
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 240px;
+    }
+
+    .home-left, .home-right {
+        width: 100%;
+    }
+
+    .home-right {
+        margin-top: 40px;
+    }
+
+    .home-right img {
+        max-width: 100%;
+    }
+
+    .empty-box, .empty-box1 {
+        display: none;
+    }
+
+    .home-right p {
+        position: static;
+        transform: none;
+        box-shadow: 4px 4px 0px #000;
+        width: fit-content;
+        margin: 15px auto 0;
+    }
+
+    .contant {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .latestArticles-l, .latestArticles-r {
+        width: 100%;
+    }
+
+    .latestArticles-r {
+        margin-top: 40px;
+        position: static;
+    }
+
+    .authors-cards {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 0;
+        align-items: center;
+    }
+
+    .card-1, .card-2, .card-3 {
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .pict1 {
+        width: 100%;
+        height: auto;
+        padding: 25px 20px;
+    }
+
+    .empty-box4, .empty-box5 {
+        display: none;
+    }
+
+    .rev {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .review2, .review3 {
+        width: 100%;
+    }
+
+    .inner-2 {
+        flex-direction: column;
+        gap: 40px;
+        width: 90%;
+    }
+
+    .sec1, .sec2, .sec3 {
+        width: 100%;
+    }
+
+    input, .sec3 button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .inner {
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        align-items: flex-start;
+    }
+
+    .end_right {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .end_right a {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 92%;
+        padding: 12px;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .navbar ul li img {
+        display: none !important;
+    }
+
+    .home1 {
+        padding-top: 220px;
+    }
+
+    .home-left h2 {
+        font-size: 42px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .b1 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn1 button, .btn2 button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .latest-l1 {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .latest-l1 h2 {
+        font-size: 26px;
+    }
+
+    .latest-l2 {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .A, .A1, .A2 {
+        left: 10px;
+        top: 20px;
+    }
+
+    .name1 {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .date {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .authors h2, .review h2 {
+        font-size: 28px;
+    }
+
+    .authors p, .review p, .sec1 p, .sec3 p {
+        font-size: 16px;
+    }
+
+    .review2_1 h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .review2_2 p {
+        font-size: 16px;
+    }
+
+    .btn3 button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        width: 95%;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .left h2 {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 12px;
+    }
+
+    .navbar ul a {
+        font-size: 11px;
+    }
+
+    .right button {
+        font-size: 12px;
+        padding: 6px 12px;
+        margin-top: 5px;
+    }
+
+    .home1 {
+        padding-top: 230px;
+    }
+
+    .home-left h2 {
+        font-size: 32px;
+    }
+
+    .prag h3 {
+        font-size: 20px;
+    }
+
+    .prag p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .BB1 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .pict1 h3 {
+        font-size: 22px;
+    }
+
+    .pict1 h4 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .pict1 p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .review3-1 p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .review3-2 p {
+        font-size: 16px;
+    }
+
+    .review3 {
+        padding: 20px;
+    }
+
+    .end_left p {
+        font-size: 14px;
+    }
+}
